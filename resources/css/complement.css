@@ -1,0 +1,29 @@
+main::-webkit-scrollbar {
+    width: 8px; /* Tamaño del scroll en vertical */
+    height: 100%; /* Tamaño del scroll en horizontal */
+    display: none;  /* Ocultar scroll */
+}
+
+main::-webkit-scrollbar-thumb {
+    background: #136487;
+    border-radius: 4px;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+    background: #181818;
+}
+.container::-webkit-scrollbar-thumb:active {
+    background-color: #181818;
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+main::-webkit-scrollbar-track {
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+main::-webkit-scrollbar-track:hover,
+main::-webkit-scrollbar-track:active {
+    background: #FFFFFF;
+}
